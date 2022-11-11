@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 public class randompractice {
 	@Test
 	public void Random() throws InterruptedException {
+		//int a =10;
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rajum\\Desktop\\Chrome_Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
